@@ -1,0 +1,14 @@
+/* equivalent to the red keyword */
+p:nth-child(1) {
+  background-color: hsl(0,100%,50%);
+}
+
+/* equivalent to the blue keyword */
+p:nth-child(2) {
+  background-color: hsl(240,100%,50%);
+}
+
+/* has no exact keyword equivalent */
+p:nth-child(3) {
+  background-color: hsl(276,100%,85%);
+}

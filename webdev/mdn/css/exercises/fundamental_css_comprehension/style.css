@@ -94,7 +94,7 @@ background red color shine through a bit too.
 }
 
 .card article img{
-	max-height: 100%
+	max-height: 12em;
 	float: right;
 }
 

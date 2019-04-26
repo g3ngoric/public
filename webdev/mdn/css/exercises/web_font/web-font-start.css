@@ -9,10 +9,19 @@
 }
 
 
+@font-face {
+    font-family: 'im_fell_dw_pica_proitalic';
+    src: url('fonts/fepiit27c-webfont.woff2') format('woff2'),
+         url('fonts/fepiit27c-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html {
   font-size: 10px;
   margin: 0;
-  font-family: 'introrustg-base2line';
+  
 }
 
 body {
@@ -24,6 +33,7 @@ body {
 /* Typography */
 
 h1 {
+  font-family: 'im_fell_dw_pica_proitalic';
   font-size: 3.2rem;
   
 }
@@ -34,7 +44,7 @@ h2 {
 }
 
 p {
-  
+  font-family: 'introrustg-base2line';
   font-size: 1.4rem;
   line-height: 1.6;
   word-spacing: 0.6rem;

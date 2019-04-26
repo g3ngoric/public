@@ -1,10 +1,37 @@
 /* General setup */
 
+/* san serif font */
+@font-face {
+    font-family: 'acmeregular';
+    src: url('fonts/acme-regular-webfont.woff2') format('woff2'),
+         url('fonts/acme-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*serif font */
+
+@font-face {
+    font-family: 'abril_fatfaceregular';
+    src: url('fonts/abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('fonts/abrilfatface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * {
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 body {
+  font-family: 'abril_fatfaceregular';
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
@@ -33,6 +60,7 @@ footer {
 
 header, section, aside, nav, footer {
   padding: 20px;
+  font-family: 'acmeregular';
 }
 
 /* header and footer */
@@ -40,6 +68,8 @@ header, section, aside, nav, footer {
 header, footer {
   border-top: 5px solid #a66;
   border-bottom: 5px solid #a66;
+  font-family: 'acmeregular';
+  font-size: 2em;
 }
 
 /* WRITE YOUR CODE BELOW HERE */

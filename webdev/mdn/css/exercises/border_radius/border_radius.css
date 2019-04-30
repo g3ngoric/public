@@ -1,0 +1,65 @@
+.rounded {
+  width: 220px;
+  padding: 20px;
+  margin: 10px;
+  line-height: 2;
+  background-color: yellow;
+  text-align: center;
+  border-style: dashed;
+  border-radius: 90px;
+}
+
+.eliptical {
+  width: 220px;
+  padding: 20px;
+  margin: 10px;
+  line-height: 2;
+  background-color: yellow;
+  text-align: center;
+  border-style: dashed;
+  border-radius: 20px / 40px; 
+}
+
+.diff_rounded_diff_eliptical{
+  width: 220px;
+  padding: 20px;
+  margin: 10px;
+  line-height: 2;
+  background-color: yellow;
+  text-align: center;
+  border-style: dashed;
+  border-radius: 100px 200px / 200px 400px;
+}
+
+.rounded_three_value{
+  width: 220px;
+  padding: 20px;
+  margin: 10px;
+  line-height: 2;
+  background-color: yellow;
+  text-align: center;
+  border-style: dashed;
+  border-radius: 90px 150px 220px;
+}
+
+.rounded_bottom_left{
+  width: 220px;
+  padding: 20px;
+  margin: 10px;
+  line-height: 2;
+  background-color: yellow;
+  text-align: center;
+  border-style: dashed;
+  border-radius: 0 0 0 120px;
+}
+
+.rounded_diff_unit_values{
+  width: 220px;
+  padding: 20px;
+  margin: 10px;
+  line-height: 2;
+  background-color: yellow;
+  text-align: center;
+  border-style: dashed;
+  border-radius: 90px 50% 22em 30rem;
+}
